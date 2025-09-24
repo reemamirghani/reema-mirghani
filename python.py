@@ -5,15 +5,13 @@ def even_odd(x):
         print("odd")
 def square_number(x):
     square=x*x
-    print(square)
+    return square
 def postive_negative(x):
     if x>0:
         print("postive")
     elif x<0:
         print("negative")
-def square_number(x):
-    square=x*x
-    print(square)
+        
 def cube_number(x):
     cube=x*x*x
     print(cube)
